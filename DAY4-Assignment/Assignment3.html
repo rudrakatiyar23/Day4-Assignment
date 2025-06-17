@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment3</title>
+  <style>
+    
+    .container #myHeader {
+      color: red;
+    }
+
+    div + h3 {
+      color: green;
+    }
+
+    .myText1 + .myText2 {
+      color: orange;
+    }
+
+    .myInput[type="text"],input[type="email"] {
+      border: 2px solid green;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 id="myHeader">Welcome to the Practice Page</h1>
+  </div>
+
+  <div>This is a div.</div>
+  <h3>This h3 comes right after a div and will be green.</h3>
+
+  <p class="myText1">This is text block 1.</p>
+  <p class="myText2">This text block follows .myText1 and will be orange.</p>
+
+  <form>
+    <input class="myInput" type="text" placeholder="Your name" />
+    <br><br>
+    <input type="email" placeholder="Your email" />
+  </form>
+
+</body>
+</html>
